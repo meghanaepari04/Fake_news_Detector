@@ -51,88 +51,23 @@ Fake_News_Detector/
 
 ## 🚀 Quick Start
 
-### 1️⃣ Clone the Repository
+### 🧩 Clone the Repository
 ```bash
 git clone https://github.com/meghanaepari04/Fake_News_Detector.git
 cd Fake_News_Detector
-2️⃣ Create and Activate a Virtual Environment
+
+⚙️ Create and Activate a Virtual Environment
+
+# Create environment
 conda create -n fake_news python=3.10 -y
 conda activate fake_news
 
-3️⃣ Install Dependencies
+📦 Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Run Preprocessing Script
+🧹 Run Preprocessing Script
 python data_preprocessing.py
+This cleans the raw dataset and prepares it for training.
 
-
-🧹 Cleans the raw dataset and prepares it for training.
-
-5️⃣ Train the Model
+🧠 Train the Model
 python model_training.py
-
-
-⚙️ Trains the Naive Bayes classifier using TF-IDF vectors.
-Generates and saves:
-
-fake_news_model.pkl
-
-tfidf_vectorizer.pkl
-
-6️⃣ Launch the Web App
-python app.py
-
-
-Now open your browser and go to:
-👉 http://127.0.0.1:5000/
-
-to test live predictions!
-
-💡 Example Prediction
-
-Input:
-
-“ISRO successfully tests reusable rocket prototype.”
-
-Output:
-✅ Real News
-
-📊 Model Overview
-Component	Description
-Algorithm	Multinomial Naive Bayes
-Feature Extraction	TF-IDF Vectorizer
-Accuracy	~90% (depends on dataset)
-Libraries	scikit-learn, pandas, numpy, flask, nltk
-🧾 Dataset
-
-⚠️ The dataset is not uploaded due to GitHub’s 100 MB file size limit.
-
-📂 Download it here:
-Download Dataset
-
-After downloading, place it inside the data/ folder before running preprocessing.
-
-🌐 Deployment
-
-You can easily deploy this Flask app on cloud platforms like:
-
-Render
-
-Railway
-
-Heroku
-
-Start command for deployment:
-
-python app.py
-
-🪪 License
-
-This project is licensed under the MIT License
-.
-Feel free to use and modify with attribution. 🙌
-
-👩‍💻 Author
-
-Meghana Epari
-🔗 GitHub Profile
