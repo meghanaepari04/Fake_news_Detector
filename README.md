@@ -64,13 +64,66 @@ Fake_News_Detector/
 ├── README.md                 # Project documentation
 └── LICENSE                   # MIT License
 
-
+```
 ---
+🚀 Quick Start
 
 ### 🧩 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/meghanaepari04/Fake_News_Detector.git
 cd Fake_News_Detector
+```
+---
 
+⚙️ 2️⃣ Create and Activate a Virtual Environment
+```bash
+# Create environment
+conda create -n fake_news python=3.10 -y
+conda activate fake_news
+```
+---
+
+📦 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+---
+
+🧹 4️⃣ Run Preprocessing Script
+```bash
+python data_preprocessing.py
+```
+🧼 Cleans the raw dataset and prepares it for training.
+---
+
+🧠 5️⃣ Train the Model
+```bash
+python model_training.py
+```
+✅ Trains the Naive Bayes classifier using TF-IDF vectors.
+
+---
+🌐 6️⃣ Run the Flask Web App
+```bash
+python app.py
+```
+Now open your browser and visit:
+👉 http://127.0.0.1:5000/
+
+to access the Fake News Detection interface.
+
+---
+📊 Model Overview
+```bash
+| Component          | Description                              |
+| ------------------ | ---------------------------------------- |
+| Algorithm          | Multinomial Naive Bayes                  |
+| Feature Extraction | TF-IDF Vectorizer                        |
+| Accuracy           | ~90% (depends on dataset)                |
+| Libraries Used     | scikit-learn, pandas, numpy, flask, nltk |
+
+```
+
+---
 
 
