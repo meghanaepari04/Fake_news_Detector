@@ -93,7 +93,7 @@ pip install -r requirements.txt
 ```bash
 python data_preprocessing.py
 ```
-🧼 Cleans the raw dataset and prepares it for training.
+
 ---
 
 🧠 5️⃣ Train the Model
@@ -125,5 +125,6 @@ to access the Fake News Detection interface.
 ```
 
 ---
+
 
 
