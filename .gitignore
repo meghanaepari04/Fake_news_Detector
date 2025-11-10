@@ -1,0 +1,55 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual environments
+venv/
+env/
+.venv/
+.fake_news_env/
+*.conda
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+*.log
+*.out
+*.txt
+*.csv
+.cache/
+.ipynb_checkpoints/
+*.swp
+
+# Model and dataset files (DO NOT commit large files)
+*.h5
+*.hdf5
+*.pt
+*.pkl
+*.sav
+*.bin
+*.json
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# Environment and config files (secrets)
+.env
+.env.*
+*.key
+*.pem
+
+# VSCode / PyCharm configs
+.vscode/
+.idea/
+
+# Render and deployment files
+*.sqlite3
+instance/
+__pycache__/
